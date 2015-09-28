@@ -1,0 +1,21 @@
+{
+  "name": "react-basic-commonjs-example",
+  "description": "Basic example of using React with CommonJS",
+  "main": "index.js",
+  "devDependencies": {
+    "babelify": "^6.3.0",
+    "browserify": "^6.3.3",
+    "envify": "^3.2.0",
+    "react": "^0.13.0",
+    "reactify": "^0.17.1",
+    "watchify": "^3.4.0"
+  },
+  "scripts": {
+    "build": "browserify --debug --transform reactify index.js > bundle.js"
+  },
+  "dependencies": {
+    "@rtorr/ajax-only": "^1.0.4",
+    "flux": "^2.1.1",
+    "object-assign": "^4.0.1"
+  }
+}
