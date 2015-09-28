@@ -4,7 +4,7 @@ Run `npm install` in the directory to install React from npm. Then run:
 
     watchify -t babelify ./jsx/*.jsx ./js/*.js -o ./dist/bundle.js -v
 
-to produce `bundle.js`.
+to produce `bundle.js`. Now load index.html in any browser.
 
 ### Note
 
