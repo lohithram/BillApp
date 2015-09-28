@@ -28,7 +28,7 @@ var BillList = React.createClass({
 
 		
 		var headerTitles = [];
-		if(headerTitles){
+		if(this.props.headerTitles){
 			for(i=0; i<this.props.headerTitles.length; ++i){
 
 				headerTitles.push( <th>{this.props.headerTitles[i]}</th> );
