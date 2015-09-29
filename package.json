@@ -14,7 +14,7 @@
   },
   "scripts": {
     "test": "jest",
-    "build": "babelify ./jsc/*.jsx ./js/*.js -o ./dist/bundle.js",
+    "build": "babelify ./jsx/*.jsx ./js/*.js -o ./dist/bundle.js",
     "watch": "watchify -t babelify ./jsx/*.jsx ./js/*.js -o ./dist/bundle.js -v"
   },
   "jest": {
